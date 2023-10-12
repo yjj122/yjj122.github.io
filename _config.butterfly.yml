@@ -44,14 +44,14 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: https://picx.zhimg.com/80/v2-5427ea1883a71e6d42c59b55361f0beb_720w.webp?source=1940ef5c
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: https://pic4.zhimg.com/v2-bc04ebe5d3a382a7a394b513a74ba0c3_r.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
