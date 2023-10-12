@@ -230,8 +230,8 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      text: 前往我的GitHub
+      link: https://github.com/yjj122
   card_announcement:
     enable: true
     content: This is my Blog
@@ -295,7 +295,7 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -748,7 +748,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   startDelay: 300 # time before typing starts in milliseconds
@@ -756,9 +756,6 @@ subtitle:
   backSpeed: 50 # backspacing speed in milliseconds
   # loop (循環打字)
   loop: true
-  # Customize typed.js (配置typed.js)
-  # https://github.com/mattboldt/typed.js/#customization
-  typed_option:
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
@@ -767,9 +764,9 @@ subtitle:
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
-  sub:
-   - 君子知命不惧&#44;日日自新
-    - Never be afraid of your fate&#44;and never be afraid of it
+  sub: 
+      - 知命不惧&#44;日日自新
+      - Never be afraid of your fate
 
 # Loading Animation (加載動畫)
 preloader:
